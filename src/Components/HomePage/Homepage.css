@@ -1,6 +1,6 @@
 .home-page{
     height: 650px;
-    background-image: url('banner_1.png');
+    background-image: url('../../image/banner_1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
