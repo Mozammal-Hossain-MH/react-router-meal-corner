@@ -1,0 +1,25 @@
+.navbar a{
+    margin-right: 15px;
+    font-weight: 500;
+    padding: 4px 6px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.navbar a:hover, .navbar a:focus{
+background-color: rgb(142, 142, 228);
+color: white;
+}
+
+@media  (max-width: 1023px) {
+    .navbar{
+        background-color: rgb(192, 224, 137);
+        width: 100%;
+    }
+    .navbar a,
+    .navbar button{
+        margin-right: 0;
+        margin: 10px;
+        font-weight: 600;
+    }
+}
